@@ -20,7 +20,7 @@ const int MaxV=15;
 	*/
 void Dijkstra(int GR[MaxV][MaxV], int V)
 	{
-		int st =1;
+		int st = 0;
 		int distance[MaxV], count, index, i, u, m=st+1;
 		bool visited[MaxV];
 		for (i=0; i<V; i++)
